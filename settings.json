@@ -1,0 +1,52 @@
+{
+  "workbench.colorTheme": "Default Light+",
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  // 让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // 让prettier使用eslint的代码格式进行校验
+  "prettier.eslintIntegration": true,
+  // 去掉代码结尾的分号
+  "prettier.semi": false,
+  // 使用带引号替代双引号
+  "prettier.singleQuote": true,
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue"
+  ],
+  // #这个按用户自身习惯选择
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.completion.autoImport": true,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+    }
+  },
+  // VSCode报错Vetur can't find 'tsconfig.json' or 'jsconfig.json'的解决方法,红色波浪报错解决方式
+  "vetur.ignoreProjectWarning": true,
+  "eslint.enable": false,
+  "vetur.validation.template": false,
+  "files.associations": {
+    "*.vue": "html"
+  },
+  // 不显示tab，只展示一个
+  "workbench.editor.showTabs": false,
+  "vscode-edge-devtools.mirrorEdits": true,
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "extensions.ignoreRecommendations": true,
+  "java.configuration.maven.globalSettings": "/usr/local/maven_3.6.3/conf/settings.xml",
+  "java.configuration.maven.userSettings": "/usr/local/maven_3.6.3/conf/settings.xml",
+  "redhat.telemetry.enabled": true,
+  "maven.executable.path": "/usr/local/maven_3.6.3/bin",
+  "Lua.telemetry.enable": false,
+  "explorer.confirmDelete": false
+}
